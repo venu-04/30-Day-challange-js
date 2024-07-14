@@ -61,10 +61,9 @@ console.log(n5===n6); //output = false
 
 console.log(0===false); //false
 console.log(0==false); //true
-console.log(1=="1"); //true
-console.log(1==="1"); //false
-////triple equals means equality without type conversion
-////in == the value will be compares after type conversion but in === only the value without conversion will be compared
+console.log(1=="1"); //true   //automatic type conversion
+console.log(1==="1"); //false //because they are of different type 
+//// Using the triple equals, the values must be equal in type as well.
 
 //Activity 4:Logical Operators
 //Task-11
